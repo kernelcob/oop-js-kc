@@ -178,7 +178,7 @@ class App {
    static init() {
       const shop = new Shop();
       this.cart = shop.cart;
-   }
+   } 
 
    static addProductToCart(product) {
       this.cart.addProduct(product);
